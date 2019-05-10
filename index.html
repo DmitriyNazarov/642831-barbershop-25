@@ -1,12 +1,121 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
-  </head>
-  <body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Барбершоп "Бородинский"</title>
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="main-navigation">
+				<a class="site-header-logo" href="">
+					<img src="" weight="" height="" alt="Логотип барбершопа «Бородинский»">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="info.html">Информация</a></li>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="price.html">Прайс-лист</a></li>
+					<li><a href="catalog.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<ul class="user-navigation">
+					<li class="login-link"></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+			<section class="features">
+				<h2 class="visually-hidden">Приемущества</h2>
+				<ul class="features-list">
+					<li class="feature-list-item">
+						<h3>Быстро</h3>
+						<p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+					</li>
+					<li class="feature-list-item">
+						<h3>Круто</h3>
+						<p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+					</li>
+					<li class="feature-list-item">
+						<h3>Дорого</h3>
+						<p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+					</li>
+				</ul>
+			</section>
+			<section class="news">
+				<h2>Новости</h2>
+				<ul class="news-list">
+					<li class="news-item">
+						<p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2016-01-11">11 января</time>
+					</li>
+					<li class="news-item">
+						<p>В нашей команде пополнение, Борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+						<time datetime="2016-01-18">18 января</time>
+					</li>
+				</ul>
+				<a href="news.html" class="btn">Все новости</a>
+			</section>
+			<section class="gallery">
+				<h2>Фотогалерея</h2>
+				<figure class="gallery-content">
+					<a href="#"><img src="" width="" height="" alt="Интерьер"></a>
+				</figure>
+				<button class="btn galleru-btn gallery-btn-back">Назад</button>
+				<button class="btn galleru-btn gallery-btn-next">Вперёд</button>
+			</section>
+			<section class="contacts">
+				<h2>Контактная информация</h2>
+				<p>
+           Барбершоп «Бородинский»<br>
+           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+           Телефон: +7 (812) 666-02-66
+        </p>
+        <p>
+          Время работы:<br>
+          пн—пт: с 10:00 до 22:00<br>
+          сб—вс: с 10:00 до 19:00
+        </p>
+				<a href="map.html" class="btn">Как проехать</a>
+				<a href="contacts.html" class="btn">Обратная связь</a>
+			</section>
+			<section class="appointment">
+				<h3>Запистаься</h3>
+				<p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+				<!-- форма -->
+			</section>
+		</main>
+		<footer class="site-footer">
+			<p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="map.html">Как нас найти?</a>
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+      	<b>Давайте дружить</b>
+      	<ul>
+      		<li><a href="#" class="social-btn">Вконтакте</a></li>
+      		<li><a href="#" class="social-btn">Фейсбук</a></li>
+      		<li><a href="#" class="social-btn">Инстаграм</a></li>
+      	</ul>
+      </div>
+      <p>
+      	<b>Разработанно:</b>
+      	<a class="btn" href="#" class="btn">HTML Academy</a>
+      </p>
+		</footer>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+		<section class="modal modal-login">
+			<h2>Личный кабинет</h2>
+			<p>Введите пожалуйста свой логин и пароль</p>
+			<!-- форма -->
+			<span class="modal-close">x</span>
+		</section>
 
-  </body>
+		<section class="modal modal-map">
+			<h2 class="visually-hidden">Как до нас добраться?</h2>
+			<span class="modal-close">x</span>
+		</section>
+
+	</body>
 </html>
