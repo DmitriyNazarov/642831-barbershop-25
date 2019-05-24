@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	background-image: url(../img/background/index-bckgrd.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #000;
+
+}
+
+.site-navigation,
+.user-navigation {
+	list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+	color: #fff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+	background-color: #242424;
+}
+
+.features-list {
+	list-style: none;
+}
+
+.feature-list-item {
+	text-align: center;
+}
+
+.feature-list-item h3 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.index-columns {
+	color: #000;
+	background-color: #f8f5f2;
+	background-image: url(../img/background/index-columns-bg.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+.index-columns h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.news-list {
+	list-style: none;
+}
+
+.news-item time {
+	text-transform: none;
+}
+
+.gallery-content {
+	background-color: #ccc;
+	border: 7px solid #fff;
+}
+
+.btn {
+	font: inherit;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	background-color: #663d15;
+}
+
+.appointment-item input {
+	font: inherit;
+	background-color: transparent;
+	border: 2px solid #000;
+}
+
+.appointment-item input:focus {
+	border-color: #663d15;
+}
+
+.site-footer {
+	color: #fff;
+	background-color: #222;
+	background-image: url(../img/background/index-footer-bg.jpg);
+	background-repeat: repet;
+	background-position: 0 0;
+}
+
+.footer-contacts a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+	text-decoration: none;
+}
+
+.footer-social {
+	text-align: center;
+}
+
+.footer-social ul {
+	list-style: none;
+}
+
+.social-btn {
+	color: #fff;
+}
+
+.footer-copyright {
+	text-align: center;
+}
+
+.footer-copyright .btn:hover,
+.footer-copyright .btn:focus,
+.footer-copyright .btn:active {
+	color:#000;
+	background-color: #fff;
+}
+
+.modal {
+	color: #000;
+	background-color: #f8f5f2;
+	background-image: url(../img/background/index-columns-bg.jpg);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+.modal h2 {
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.login-form input {
+	font: inherit;
+	text-transform: uppercase;
+	color: #000;
+	background-color: #f9f6f3;
+	border: 2px solid #000;
+}
+
+.login-form input:focus {
+	border-color: #663d15;
+}
+
+.remember:hover,
+.remember:focus {
+	color: #663d15;
+}
+
+.login-form a {
+	color:#000;
+	text-decoration: underline;
+}
+
+.login-form a:hover,
+.login-form a:focus,
+.login-form a:active {
+	text-decoration: none;
+}
+
+
+
+
